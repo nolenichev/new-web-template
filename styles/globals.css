@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #000;
+  background-color: #fff;
+}
+
+.cont {
+ @apply container mx-auto px-5;
+}
+
+.title {
+  @apply font-title;
+}
+
+.btn {
+  @apply transition hover:bg-opacity-50;
+}
+
+.center {
+  @apply transform -translate-y-1/2 -translate-x-1/2 top-1/2 left-1/2 absolute; 
+}
